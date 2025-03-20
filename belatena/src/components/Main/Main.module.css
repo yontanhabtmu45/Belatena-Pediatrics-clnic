@@ -83,6 +83,13 @@
 .custom_shape_divider_bottom_1742382044 .shape_fill {
     fill: #01196e;
 }
+.count_up {
+    font-size: 23px;
+    font-weight: 900;
+}
+.counter svg {
+    color: #01196ed5;
+}
 .counter_wrapper {
     background: #01196e;
     margin-top: 94px;
@@ -106,7 +113,10 @@
 }
 .counter {
     border-right: 1px solid #f0e9e9;
-    padding-right: 40px;
+    padding-right: 26px;
+}
+.counter:first-child{
+    padding-left: -26px;
 }
 .counter:last-child {
     border: none;

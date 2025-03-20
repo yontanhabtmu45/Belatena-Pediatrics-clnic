@@ -2,7 +2,7 @@ import React from "react";
 import classes from "./Main.module.css";
 import Doc from "../../assets/Images/10003-removebg-preview.png";
 import CountUp from "react-countup";
-import { TfiCup } from "react-icons/tfi";
+import { FaTrophy } from "react-icons/fa";
 import { HiEmojiHappy } from "react-icons/hi";
 import { IoIosPeople } from "react-icons/io";
 import { FaAward } from "react-icons/fa";
@@ -43,60 +43,72 @@ function Main() {
         <div className={classes.inner_counter_wrapper}>
           <div className={classes.counter}>
             <div className={classes.counter_1}>
-              <TfiCup size={35} /> <br /> <br />
-              <CountUp
-                start={0}
-                end={4}
-                duration={5}
-                delay={1}
-                separator=" "
-                decimals={0}
-                decimal=","
-                suffix="+ Years of Exprience"
-              ></CountUp>
+              <FaTrophy size={35} /> <br /> <br />
+              <div className={classes.count_up}>
+                <CountUp
+                  start={0}
+                  end={4}
+                  duration={7}
+                  delay={1}
+                  separator=" "
+                  decimals={0}
+                  decimal=","
+                  suffix="+"
+                ></CountUp>
+              </div>
+              <p>Years of Exprience</p>
             </div>
           </div>
           <div className={classes.counter}>
             <div className={classes.counter_1}>
               <FaAward size={35} /> <br /> <br />
-              <CountUp
-                start={0}
-                end={5}
-                duration={5}
-                delay={1}
-                separator=" "
-                decimals={0}
-                decimal=","
-                suffix="+ Awards"
-              ></CountUp>
+              <div className={classes.count_up}>
+                <CountUp
+                  start={0}
+                  end={5}
+                  duration={7}
+                  delay={1}
+                  separator=" "
+                  decimals={0}
+                  decimal=","
+                  suffix="+"
+                ></CountUp>
+              </div>
+              <p>Awards</p>
             </div>
           </div>
           <div className={classes.counter}>
             <div className={classes.counter_1}>
               <HiEmojiHappy size={35} /> <br /> <br />
-              <CountUp
-                start={0}
-                end={10}
-                duration={2}
-                separator=" "
-                decimals={3}
-                decimal=","
-                suffix="+ Patient Recovered"
-              ></CountUp>
+              <div className={classes.count_up}>
+                <CountUp
+                  start={0}
+                  end={10}
+                  duration={4}
+                  separator=" "
+                  decimals={3}
+                  decimal=","
+                  suffix="+"
+                ></CountUp>
+              </div>
+              <p>Patient Recovered</p>
             </div>
           </div>
           <div className={classes.counter}>
             <div className={classes.counter_1}>
               <IoIosPeople size={35} /> <br /> <br />
-              <CountUp
-                start={0}
-                end={50}
-                duration={2}
-                separator=" "
-                decimals={0}
-                decimal=","
-                suffix="+ Staffs"
-              ></CountUp>
+              <div className={classes.count_up}>
+                <CountUp
+                  start={0}
+                  end={50}
+                  duration={4}
+                  separator=" "
+                  decimals={0}
+                  decimal=","
+                  suffix="+"
+                ></CountUp>
+              </div>
+              <p>Staffs</p>
             </div>
           </div>
         </div>
