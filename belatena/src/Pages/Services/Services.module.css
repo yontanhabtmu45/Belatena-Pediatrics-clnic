@@ -19,10 +19,10 @@
     border-radius: 21px;
     margin: 24px;
 }
-.topics_wrapper div:hover {
+/* .topics_wrapper div:hover {
     background: #2745b084;
     color: #fff;
-}
+} */
 .topics_wrapper h2, p {
     margin: 24px;
 }
