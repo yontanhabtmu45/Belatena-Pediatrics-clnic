@@ -16,18 +16,18 @@
     border-radius: 50%;
 }
 .cicle_gradiant img {
-    margin-top: -8px;
+    margin-top: -38px;
 }
 .description_wrapper h1{
     display: flex;
     justify-content: start;
-    align-items: canter; 
+    align-items: center; 
     width: 45vw;
     font-size: 62px;
-    margin-bottom: 65px;
+    /* margin-bottom: 65px; */
 }
 .description_wrapper h5 {
-    font-size: 21px;
+    font-size: 18px;
     max-width: 30vw;
     font-weight: 400;
     color: #000;
@@ -83,7 +83,7 @@
 }
 .counter_wrapper {
     background: #01196e;
-    margin-top: 67px;
+    margin-top: 52px;
     font-size: 22px;
     text-align: center;
 }
