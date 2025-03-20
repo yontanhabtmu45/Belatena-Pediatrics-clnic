@@ -2,6 +2,7 @@
     background: #f9f4f4c9;
 }
 .description_wrapper {
+    height: 86vh;
     display: flex;
     justify-content: space-around;
     align-items: start;
@@ -9,14 +10,14 @@
 }
 .cicle_gradiant {
     position: relative;
-    background: radial-gradient(circle, blue 12%, lightblue);
+    background: radial-gradient(circle, blue 12%, rgb(175, 211, 223));
     height: 70vh;
-    padding: 28px;
-    margin: 35px 45px 35px 30px;
+    padding-right: 48px;
+    margin: 15px 45px 35px 30px;
     border-radius: 50%;
 }
 .cicle_gradiant img {
-    margin-top: -38px;
+    margin-top: 38px;
 }
 .description_wrapper h1{
     display: flex;
@@ -60,7 +61,7 @@
     background-color: #01196e;
     color: #fff;
 }
-.custom-shape-divider-bottom-1742382044 {
+.custom_shape_divider_bottom_1742382044 {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -68,9 +69,10 @@
     overflow: hidden;
     line-height: 0;
     transform: rotate(180deg);
+    margin-bottom: -70px;
 }
 
-.custom-shape-divider-bottom-1742382044 svg {
+.custom_shape_divider_bottom_1742382044 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
@@ -78,12 +80,12 @@
     transform: rotateY(180deg);
 }
 
-.custom-shape-divider-bottom-1742382044 .shape-fill {
+.custom_shape_divider_bottom_1742382044 .shape_fill {
     fill: #01196e;
 }
 .counter_wrapper {
     background: #01196e;
-    margin-top: 52px;
+    margin-top: 94px;
     font-size: 22px;
     text-align: center;
 }

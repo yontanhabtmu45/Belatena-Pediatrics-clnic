@@ -1,0 +1,34 @@
+.outer_wrapper {
+    background: #8da6ff45;
+    margin: -20px;
+}
+.topics_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 44px 84px;
+    width: 28vw;
+    cursor: pointer;
+}
+.topics_wrapper svg {
+    margin: 18px 190px;
+    color: #02196C;
+}
+.topics_wrapper div {
+    box-shadow: 0 0 8px rgba(0, 0, 0, .2);
+    background: #fafafa;
+    border-radius: 21px;
+    margin: 24px;
+}
+.topics_wrapper div:hover {
+    background: #2745b084;
+    color: #fff;
+}
+.topics_wrapper h2, p {
+    margin: 24px;
+}
+.topics_wrapper p {
+    text-align: start;
+    font-size: 18px;
+    color: #7c7777;
+    line-height: 30px;
+}

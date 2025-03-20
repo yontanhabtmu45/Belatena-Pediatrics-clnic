@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.css";
+import classes from  "./Footer.module.css";
 import Logo from "../../assets/Images/10001.jpg";
 import { IoLocationSharp } from "react-icons/io5";
 import { IoIosMail } from "react-icons/io";
@@ -8,8 +8,8 @@ import { FaPhoneAlt } from "react-icons/fa";
 function Footer() {
   return (
     <footer>
-      <div className="inner_footer_wrapper">
-        <div className="left_wrapper">
+      <div className={classes.inner_footer_wrapper}>
+        <div className={classes.left_wrapper}>
           <a href="#">
             <img src={Logo} alt="clinic_logo"></img>
           </a>
@@ -18,9 +18,9 @@ function Footer() {
             to assist you in pediatric.
           </p>
         </div>
-        <div className="links_wrapper">
-          <div className="med_links">
-            <div className="medic">Medic</div>
+        <div className={classes.links_wrapper}>
+          <div className={classes.med_links}>
+            <div className={classes.medic}>Medic</div>
             <ul>
               <li>
                 <a href="#">Home</a>
@@ -37,8 +37,8 @@ function Footer() {
             </ul>
           </div>
 
-          <div className="social_links">
-            <div className="social">Social Media</div>
+          <div className={classes.social_links}>
+            <div className={classes.social}>Social Media</div>
             <ul>
               <li>
                 <a href="#">Facebook</a>
@@ -54,8 +54,8 @@ function Footer() {
               </li>
             </ul>
           </div>
-          <div className="contact_info">
-            <div className="address">Contact</div>
+          <div className={classes.contact_info}>
+            <div className={classes.address}>Contact</div>
             <ul>
               <li>
                 <IoLocationSharp />
