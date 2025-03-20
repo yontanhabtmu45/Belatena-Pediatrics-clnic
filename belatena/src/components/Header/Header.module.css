@@ -6,7 +6,7 @@
 }
 .logo a{
   display: flex;
-  gap: 32px;
+  gap: 18px;
   text-decoration: none;
 }
 .logo img {

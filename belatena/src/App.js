@@ -5,6 +5,7 @@ import Footer from './components/Footer/Footer'
 import Exp from './Pages/Exp/Exp';
 import Services from './Pages/Services/Services';
 import Doctors from './Pages/Doctors/Doctors';
+import Contact from './Pages/Contact/Contact';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Exp />
       <Services />
       <Doctors />
+      <Contact />
       <Footer/>
     </div>
   );
