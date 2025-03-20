@@ -1,0 +1,115 @@
+.main-highlither {
+    background: #f9f4f4c9;
+}
+.description_wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    text-align: start;
+}
+.cicle_gradiant {
+    position: relative;
+    background: radial-gradient(circle, blue 12%, lightblue);
+    height: 70vh;
+    padding: 28px;
+    margin: 35px 45px 35px 30px;
+    border-radius: 50%;
+}
+.cicle_gradiant img {
+    margin-top: -8px;
+}
+.description_wrapper h1{
+    display: flex;
+    justify-content: start;
+    align-items: canter; 
+    width: 45vw;
+    font-size: 62px;
+    margin-bottom: 65px;
+}
+.description_wrapper h5 {
+    font-size: 21px;
+    max-width: 30vw;
+    font-weight: 400;
+    color: #000;
+}
+.inner_description_wrapper h1,h5, .btn {
+    color: #000;
+    padding-left: 45px;
+}
+.inner_description_wrapper  .btn {
+    margin-top: 45px;
+}
+.btn button{
+    border-radius: 18px;
+    padding: 20px;
+    margin-right: 50px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.btn_1 {
+    border: 1px solid #01196e;
+    background-color: #01196e;
+    color: #fff;
+}
+.btn_2 {
+    border: 1px solid #ccc;
+    background: transparent;
+    color: #4f4b4b;
+}
+.btn_2:hover {
+    background-color: #01196e;
+    color: #fff;
+}
+.custom-shape-divider-bottom-1742382044 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1742382044 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 143px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1742382044 .shape-fill {
+    fill: #01196e;
+}
+.counter_wrapper {
+    background: #01196e;
+    margin-top: 67px;
+    font-size: 22px;
+    text-align: center;
+}
+.inner_counter_wrapper {
+    place-self: center;
+    background: rgba(245, 245, 245, 0.755);
+    color: #2c2a2abf;
+    position: relative;
+    width: 50vw;
+    z-index:129;
+    margin: -90px 65px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: inset 0 0 1px 1px hsla(0, 0%, 0%, 0.047), 0 20px 27px 0 rgba(0, 0, 0, .05) !important;
+    padding: 45px;
+}
+.counter {
+    border-right: 1px solid #f0e9e9;
+    padding-right: 40px;
+}
+.counter:last-child {
+    border: none;
+    padding-right: 40px;
+}
+.counter_2, .counter_4{
+    padding: 0 58px;
+}

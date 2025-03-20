@@ -1,0 +1,48 @@
+footer {
+    background: linear-gradient(45deg, #07123b, #02196c);
+    color: #fff;
+}
+.inner_footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.left_wrapper {
+    margin: 16px 16px 0 ;
+}
+.left_wrapper img {
+    height: 95px;
+}
+.links_wrapper {
+    text-align: start;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    margin: 30px 30px 0;
+    gap: 90px;
+}
+.links_wrapper ul {
+    list-style: none;
+    line-height: 30px;
+    /* margin-right: -40px; */
+}
+.links_wrapper ul a {
+    text-decoration: none;
+    color: #ccc;
+}
+.links_wrapper ul a:hover {
+    text-decoration: underline;
+}
+.links_wrapper svg {
+    margin-right: 16px;
+    font-size: 18px;
+}
+.medic, .social, .address {
+    font-size: 19px;
+    font-weight: 600;
+    margin-left: 38px;
+}
+.contact_info ul {
+    line-height: 38px;
+}

@@ -1,0 +1,14 @@
+.read_more {
+    line-height: 31px;
+    font-size: 21px;
+    text-align: start;
+    background: #f9f4f4c9;
+    padding: 28px;
+}
+.read_more p {
+    margin: 36px;
+}
+.read_more {
+    width: 100vw;
+    place-items: center;
+}
