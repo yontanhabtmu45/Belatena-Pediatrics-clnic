@@ -6,10 +6,19 @@ import { FaTrophy } from "react-icons/fa";
 import { HiEmojiHappy } from "react-icons/hi";
 import { IoIosPeople } from "react-icons/io";
 import { FaAward } from "react-icons/fa";
+import Exp from "./Exp/Exp";
+import Services from './Services/Services'
+import Doctors from './Doctors/Doctors'
+import Contact from './Contact/Contact'
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
+import { Link } from "react-router-dom";
 
 function Main() {
   return (
-    <div className={classes.main_highlither}>
+    <>
+    <Header/>
+    <div id="main" className={classes.main_highlither}>
       <div className={classes.description_wrapper}>
         <div className={classes.inner_description_wrapper}>
           <h1>Every good thing starts with good health</h1>
@@ -18,8 +27,8 @@ function Main() {
             outstanding healthcare for better lives.
           </h5>
           <div className={classes.btn}>
-            <button className={classes.btn_1}>Request appointement</button>
-            <button className={classes.btn_2}>Learn More </button>
+            <Link smooth to='#contact'> <button className={classes.btn_1}>Request appointement</button></Link>
+            <Link to='/about'> <button className={classes.btn_2}>Learn More </button></Link>
           </div>
         </div>
         <div className={classes.cicle_gradiant}>
@@ -114,6 +123,12 @@ function Main() {
         </div>
       </div>
     </div>
+    <Exp/>
+    <Services/>
+    <Doctors/>
+    <Contact/>
+    <Footer/>
+    </>
   );
 }
 

@@ -4,15 +4,16 @@ import Logo from "../../assets/Images/10001.jpg";
 import { IoLocationSharp } from "react-icons/io5";
 import { IoIosMail } from "react-icons/io";
 import { FaPhoneAlt } from "react-icons/fa";
+import { HashLink as Link } from "react-router-hash-link";
 
 function Footer() {
   return (
     <footer>
       <div className={classes.inner_footer_wrapper}>
         <div className={classes.left_wrapper}>
-          <a href="#">
+          <Link smooth to="#main">
             <img src={Logo} alt="clinic_logo"></img>
-          </a>
+          </Link>
           <p>
             We owe a medical clinic, <br />
             to assist you in pediatric.
@@ -23,16 +24,16 @@ function Footer() {
             <div className={classes.medic}>Medic</div>
             <ul>
               <li>
-                <a href="#">Home</a>
+                <Link smooth to="#main">Home</Link>
               </li>
               <li>
-                <a href="#">About</a>
+                <Link smooth to="/about">About</Link>
               </li>
               <li>
-                <a href="#">Our services</a>
+                <Link smooth to="#services">Our services</Link>
               </li>
               <li>
-                <a href="#">Our Specialists</a>
+                <Link smooth to="#doctors">Our Specialists</Link>
               </li>
             </ul>
           </div>
@@ -41,16 +42,16 @@ function Footer() {
             <div className={classes.social}>Social Media</div>
             <ul>
               <li>
-                <a href="#">Facebook</a>
+                <Link smooth to="#">Facebook</Link>
               </li>
               <li>
-                <a href="#">linkdin</a>
+                <Link smooth to="#">linkdin</Link>
               </li>
               <li>
-                <a href="#">Telegram</a>
+                <Link smooth to="#">Telegram</Link>
               </li>
               <li>
-                <a href="#">YouTube</a>
+                <Link smooth to="#">YouTube</Link>
               </li>
             </ul>
           </div>

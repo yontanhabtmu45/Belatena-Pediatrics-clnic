@@ -1,6 +1,10 @@
 .outer_wrapper {
     background: #8da6ff45;
-    margin: -20px;
+    /* margin: -20px; */
+    padding-top: 28px;
+}
+.outer_wrapper h1 {
+    text-align: center;
 }
 .topics_wrapper {
     display: grid;
@@ -23,6 +27,9 @@
     background: #2745b084;
     color: #fff;
 } */
+.topics_wrapper h2 {
+    text-align: center;
+}
 .topics_wrapper h2, p {
     margin: 24px;
 }

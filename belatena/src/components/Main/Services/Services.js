@@ -9,7 +9,7 @@ import { FaMicroscope } from "react-icons/fa6";
 
 function Services() {
   return (
-    <div className={classes.outer_wrapper}>
+    <div  id="services" className={classes.outer_wrapper}>
       <div className={classes.heading}>
         <h1>Our Services</h1>
       </div>

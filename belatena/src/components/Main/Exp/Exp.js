@@ -1,13 +1,13 @@
 import React from "react";
 import classes from "./Exp.module.css";
-import mainDoc from "../../assets/Images/10002.jpg";
-import readMore from '../About/About'
+import mainDoc from "../../../assets/Images/10002.jpg";
+import { Link } from "react-router-dom";
 
 function Exp() {
   return (
-    <div className={classes.description_wrapper}>
+    <div id="exp" className={classes.description_wrapper}>
       <div className={classes.inner_des}>
-        <div>
+        <div className={classes.head}>
           <h1>What makes us different ?</h1>
         </div>
         <div className={classes.mixed_des}>
@@ -20,7 +20,7 @@ function Exp() {
             are not only highly qualified but also genuinely care about children
             can make a significant difference.
           </p>
-          <button><a href={readMore}></a> Read more</button>
+          <Link to='/about'><button>Read more</button></Link> 
           </div>
         </div>
       </div>

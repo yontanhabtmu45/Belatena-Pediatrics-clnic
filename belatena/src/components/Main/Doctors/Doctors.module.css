@@ -3,6 +3,8 @@
 }
 .main_docs h1 {
     margin-bottom: 30px;
+    text-align: center;
+    padding: 28px;
 }
 .team_section {
     display: flex;
@@ -16,7 +18,8 @@
     width: 270px;
     height: 330px;
 }
-small {
+.team_section small {
+    padding: 0 18px;
     font-size: 16px;
     color: #636468;
 }

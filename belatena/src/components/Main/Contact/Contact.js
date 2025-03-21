@@ -3,15 +3,12 @@ import classes from "./contact.module.css";
 
 function Contact() {
   return (
-    <div className={classes.contact_form}>
+    <div id="contact" className={classes.contact_form}>
         <div className={classes.address_info}>
           <h1>Let's Talk</h1>
         </div>
       <div className={classes.main_divider}>
         <div className={classes.form_wrapper}>
-          {/* <div className={classes.contact}>
-
-            </div> */}
           <div className={classes.inner_form_wrapper}>
             <div className={classes.names}>
               <div>
